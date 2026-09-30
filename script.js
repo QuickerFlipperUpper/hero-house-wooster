@@ -87,7 +87,7 @@
 
     menuItems.forEach((item) => {
       const categoryMatches = state.category === "all" || item.dataset.category === state.category;
-      const text = `${item.dataset.search || ""} ${item.textContent || ""}`.toLocaleLowerCase();
+      const text = `${item.dataset.search || ""} ${item.querySelector("h4")?.textContent || ""} ${item.querySelector("p")?.textContent || ""}`.toLocaleLowerCase();
       const searchMatches = !normalizedQuery || text.includes(normalizedQuery);
       const show = categoryMatches && searchMatches;
       item.hidden = !show;

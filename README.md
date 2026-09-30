@@ -4,7 +4,7 @@ A hand-coded, static concept site for Hero House at 141 N. Bever St. in Wooster,
 
 ## Features
 
-- Mobile-first layout with sticky navigation and fixed mobile call/directions actions.
+- Mobile-first layout with sticky navigation and fixed mobile ordering-demo/directions actions.
 - Text-based searchable menu with category filters, sandwich-size pricing, and shareable query-string state.
 - Print-friendly full menu.
 - Local-time open/closed indicator for Eastern Time.
@@ -12,6 +12,17 @@ A hand-coded, static concept site for Hero House at 141 N. Bever St. in Wooster,
 - Accessible landmarks, skip link, visible focus, reduced-motion support, semantic menu content, and no-JavaScript fallback.
 - Custom SVG illustrations and social card; no stock or AI-generated food photography.
 - GitHub Pages deployment workflow in `.github/workflows/pages.yml`.
+- Interactive pickup ordering demo: configurable menu sizes, cart quantities, side/drink suggestions, pickup method and illustrative pickup times, demo confirmation, and a kitchen ticket. Drive-through pickup is the default.
+- Owner presentation at `owner.html`, with a workflow comparison, the demo kitchen ticket, and an editable calculator for additional sales and contribution after variable costs. Staff time freed is shown separately from cash profit.
+
+## Two links for the sales conversation
+
+- Owner walkthrough and business case: <https://quickerflipperupper.github.io/hero-house-wooster/owner.html>
+- Customer website and ordering demo: <https://quickerflipperupper.github.io/hero-house-wooster/>
+
+The ordering experience is a working front-end simulation. It stores an example cart and ticket locally in the browser, collects no payment or contact details, and sends no order to the restaurant. The owner page can display the ticket created in that browser. No merchant account, POS, kitchen system, or messaging service has been connected.
+
+For a real launch, the owner would choose the ordering/POS integration, approve the menu and taxes, define order acceptance and payment handling, confirm pickup-window instructions, set kitchen capacity and available time slots, and approve the operating cost. GitHub Pages hosts this preview for free; it does not itself operate a production ordering backend.
 
 ## Research notes and source of truth
 
@@ -23,7 +34,8 @@ Primary source: [Hero House on Facebook](https://www.facebook.com/p/Hero-House-6
 - The Aug. 3, 2026 Facebook menu image lists 7½-, 10-, and 15-inch hero sizes, plus steak sandwiches, salads, sides, and drinks. The Facebook photo is labeled “AI content”; descriptions and prices here are included as a draft transcription and must be checked against the current in-store menu.
 - The menu lists 141 N. Bever St., Wooster, OH 44691 and (330) 804-0180. Older directory listings show a different phone number; this concept uses the number on the current Facebook menu.
 - Facebook comments ask for several older menu items. The concept only includes items visible on the Aug. 3 menu image and avoids claiming those requested items are currently available.
-- The latest Facebook page provides a direct message/contact action, but no current checkout or verified online ordering provider. The site therefore offers call-to-order and directions, not a fake cart or checkout.
+- The latest Facebook page provides a direct message/contact action, but no current checkout or verified online ordering provider. The concept now includes a clearly labeled ordering simulation to demonstrate the proposed customer and kitchen experience.
+- The user confirmed that the shop has a drive-through window. The demo offers drive-through pickup and inside pickup. Example readiness times demonstrate scheduling; they are not promises of current shop availability.
 
 Before handing over the site, confirm the full menu, prices, current hours, and phone number with the owners. Replace the vector illustration with owner-approved food and storefront photography if available. The preview has `noindex, nofollow` and a visible concept label; remove those only after the owners approve an official launch. Then set an absolute canonical/OG image URL and add `Restaurant` structured data with the verified hours, address, and phone.
 

@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex, nofollow" />
     <meta
       name="description"
-      content="A website concept for Hero House in Wooster, Ohio: explore the menu, call for pickup, and find the shop on North Bever Street."
+      content="Explore Hero House’s Wooster website concept: build a demo pickup order, choose drive-through collection, and see the opportunity for the shop."
     />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Hero House — A Wooster Original Since 1975" />
@@ -15,7 +15,7 @@
       property="og:description"
       content="Cheesesteaks, house-made meatballs, and a hometown favorite’s next chapter."
     />
-    <meta property="og:image" content="https://quickerflipperupper.github.io/hero-house-wooster/social-card.svg" />
+    <meta property="og:image" content="https://quickerflipperupper.github.io/hero-house-wooster/social-card.png" />
     <meta property="og:url" content="https://quickerflipperupper.github.io/hero-house-wooster/" />
     <title>Hero House | Wooster Sandwiches & Cheesesteaks</title>
     <link rel="icon" href="hero-mark.svg" type="image/svg+xml" />
@@ -26,14 +26,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="order-demo.css" />
     <script defer src="script.js"></script>
+    <script defer src="order-demo.js"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
     <div class="concept-ribbon" role="note">
       <span class="concept-ribbon__stamp">Website concept</span>
-      <span>Independent preview for Hero House · details for owner review</span>
+      <span>Independent preview · ordering is a demo</span>
+      <a href="owner.html">Owner walkthrough &amp; business case ↗</a>
     </div>
 
     <header class="site-header" id="top">
@@ -63,9 +66,9 @@
           <a href="#menu">Menu</a>
           <a href="#story">Our story</a>
           <a href="#visit">Find us</a>
-          <a class="site-nav__call" href="tel:+13308040180">
-            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5.2 2.7 7.6 2a1.5 1.5 0 0 1 1.8.8l1.1 2.7a1.5 1.5 0 0 1-.4 1.7L8.7 8.5a12 12 0 0 0 2.8 2.8l1.3-1.4a1.5 1.5 0 0 1 1.7-.4l2.7 1.1a1.5 1.5 0 0 1 .8 1.8l-.7 2.4a1.8 1.8 0 0 1-1.8 1.3C8.6 17.1 2.9 11.4 2.9 4.5c0-.8.5-1.5 1.3-1.8Z" fill="currentColor" /></svg>
-            Call to order
+          <a class="site-nav__call enhanced-control" href="#order-demo" data-open-order>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 6h12l1 11H3L4 6ZM7 7V5a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            Order demo
           </a>
         </nav>
       </div>
@@ -83,7 +86,7 @@
             </p>
             <div class="hero__actions">
               <a class="button button--gold" href="#menu">
-                See the menu
+                Build a pickup order
                 <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-4-4 4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
               </a>
               <a class="button button--line" href="https://www.google.com/maps/dir/?api=1&destination=141+N+Bever+St%2C+Wooster%2C+OH+44691" target="_blank" rel="noopener noreferrer">
@@ -142,6 +145,47 @@
         </div>
       </section>
 
+      <section class="pickup-preview section-pad" aria-labelledby="pickupTitle">
+        <div class="page-width pickup-preview__grid">
+          <div>
+            <p class="eyebrow"><span class="eyebrow__star">✦</span> The proposed pickup experience</p>
+            <h2 id="pickupTitle">Order ahead.<br /><span>Roll up.</span></h2>
+            <p class="pickup-preview__lead">Your hero, your pickup time, your car. Choose drive-through pickup and collect at the window without stepping inside.</p>
+            <p>Try the full experience below: build an order, add a side, choose the window, and see the order become a kitchen ticket.</p>
+            <div class="pickup-preview__actions">
+              <a class="button button--navy" href="#menu">Try drive-through ordering <span aria-hidden="true">→</span></a>
+              <a class="pickup-preview__owner" href="owner.html">See how it could help the shop ↗</a>
+            </div>
+            <p class="pickup-preview__note">Interactive concept: no payment is collected, no order is sent, and pickup times are examples.</p>
+          </div>
+          <div class="pickup-route" aria-label="Proposed journey from online order to drive-through pickup">
+            <div class="pickup-route__top"><span>THE WINDOW IS THE FINISH LINE</span><span aria-hidden="true">↗</span></div>
+            <svg class="pickup-route__art" viewBox="0 0 460 170" role="img" aria-labelledby="windowArtTitle">
+              <title id="windowArtTitle">Car collecting an order from a restaurant pickup window</title>
+              <path d="M279 138V18h147v120" fill="#f3e9d7" stroke="#17283b" stroke-width="3" />
+              <path d="M269 18h165l-14 25H283z" fill="#c73b34" />
+              <path d="M304 66h72v59h-72z" fill="#fffdf8" stroke="#17283b" stroke-width="3" />
+              <path d="M294 125h92" stroke="#17283b" stroke-width="5" />
+              <path d="M326 94h31v28h-31z" fill="#e9b84d" stroke="#17283b" stroke-width="2" />
+              <path d="M334 95v-7a7 7 0 0 1 14 0v7" fill="none" stroke="#17283b" stroke-width="2" />
+              <path d="m61 99 24-37h96l30 37 32 7v30H36v-28z" fill="#e9b84d" stroke="#17283b" stroke-width="3" />
+              <path d="m96 70-17 28h114l-18-28z" fill="#fffdf8" stroke="#17283b" stroke-width="2" />
+              <path d="M131 70v28M35 137h211M215 115h18" stroke="#17283b" stroke-width="3" />
+              <circle cx="78" cy="137" r="19" fill="#17283b" /><circle cx="78" cy="137" r="8" fill="#fffdf8" />
+              <circle cx="198" cy="137" r="19" fill="#17283b" /><circle cx="198" cy="137" r="8" fill="#fffdf8" />
+              <path d="M20 157h420" stroke="#17283b" stroke-width="2" stroke-dasharray="7 7" />
+              <text x="352" y="57" text-anchor="middle" fill="#17283b" font-family="Arial,sans-serif" font-size="10" font-weight="700">PICKUP WINDOW</text>
+            </svg>
+            <ol class="pickup-route__steps">
+              <li><span>1</span><div><strong>Build your order</strong><p>Pick a hero, a size, and something on the side.</p></div></li>
+              <li><span>2</span><div><strong>Choose window pickup</strong><p>Select drive-through or inside collection and an example pickup time.</p></div></li>
+              <li><span>3</span><div><strong>Collect when it’s ready</strong><p>A live system would confirm readiness so the handoff at the window can be shorter.</p></div></li>
+            </ol>
+            <div class="pickup-route__bottom"><span>LESS TIME ORDERING AT THE WINDOW</span><strong>More time enjoying your hero.</strong></div>
+          </div>
+        </div>
+      </section>
+
       <section class="menu-section section-pad" id="menu" aria-labelledby="menuTitle">
         <div class="page-width">
           <div class="section-heading section-heading--menu">
@@ -150,7 +194,7 @@
               <h2 id="menuTitle">Pick your <span>hero.</span></h2>
             </div>
             <div class="menu-heading-note">
-              <p>Big sandwiches, fresh salads, and sides worth sharing. Pull up a chair or call ahead for pickup.</p>
+              <p>Build a demo order from the menu. Choose drive-through or inside pickup at checkout.</p>
               <button class="text-button enhanced-control" id="printMenu" type="button">
                 <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 7V3h8v4M6 14H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2M6 11h8v6H6z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" /><path d="M15 9.5h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
                 Print the menu
@@ -365,7 +409,7 @@
             <div class="order-banner__icon" aria-hidden="true">
               <svg viewBox="0 0 56 56"><path d="M17 7h22l3 7v34H14V14z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" /><path d="M19 14h18M20 25h16M20 33h10M20 41h13" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" /><path d="M10 18h4m28 0h4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" /></svg>
             </div>
-            <div><span class="order-banner__eyebrow">HUNGRY ALREADY?</span><h3>Call it in. We’ll get the grill going.</h3><p>Eat in, carry out, or use the pick-up window. Call for current availability.</p></div>
+            <div><span class="order-banner__eyebrow">HUNGRY ALREADY?</span><h3>Call the shop for a real order.</h3><p>The online checkout here is a preview. Call ahead for current drive-through pickup options, prices, and availability.</p></div>
             <a class="button button--navy" href="tel:+13308040180">Call (330) 804-0180 <span aria-hidden="true">↗</span></a>
           </div>
         </div>
@@ -411,7 +455,7 @@
         <div class="page-width">
           <div class="visit-heading">
             <div><p class="eyebrow eyebrow--light"><span class="eyebrow__star">✦</span> Right here in Wooster</p><h2 id="visitTitle">Find your <span>way here.</span></h2></div>
-            <p class="visit-heading__aside">A familiar stop on North Bever Street. Come in, carry out, or swing by the pick-up window.</p>
+            <p class="visit-heading__aside">A familiar stop on North Bever Street. Come in, carry out, or collect at the drive-through window.</p>
           </div>
 
           <div class="visit-grid">
@@ -458,7 +502,7 @@
           <span class="brand__wordmark"><span>Hero</span> House</span>
         </a>
         <p class="site-footer__motto">Come hungry.<br /><span>Let us make you happy.</span></p>
-        <div class="site-footer__links"><a href="#menu">Menu</a><a href="#story">Our story</a><a href="#visit">Visit</a><a href="https://www.facebook.com/p/Hero-House-61589136044433/" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div>
+        <div class="site-footer__links"><a href="#menu">Menu</a><a href="#story">Our story</a><a href="#visit">Visit</a><a href="owner.html">Owner business case ↗</a><a href="https://www.facebook.com/p/Hero-House-61589136044433/" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div>
       </div>
       <div class="page-width site-footer__bottom">
         <span>© <span id="currentYear">2026</span> Hero House · Wooster, Ohio</span>
@@ -471,9 +515,9 @@
         <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 18s6-5.1 6-10a6 6 0 1 0-12 0c0 4.9 6 10 6 10Z" fill="none" stroke="currentColor" stroke-width="1.6" /><circle cx="10" cy="8" r="2" fill="none" stroke="currentColor" stroke-width="1.6" /></svg>
         Directions
       </a>
-      <a href="tel:+13308040180" class="mobile-action-bar__call">
-        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5.2 2.7 7.6 2a1.5 1.5 0 0 1 1.8.8l1.1 2.7a1.5 1.5 0 0 1-.4 1.7L8.7 8.5a12 12 0 0 0 2.8 2.8l1.3-1.4a1.5 1.5 0 0 1 1.7-.4l2.7 1.1a1.5 1.5 0 0 1 .8 1.8l-.7 2.4a1.8 1.8 0 0 1-1.8 1.3C8.6 17.1 2.9 11.4 2.9 4.5c0-.8.5-1.5 1.3-1.8Z" fill="currentColor" /></svg>
-        Call to order
+      <a href="#order-demo" class="mobile-action-bar__call enhanced-control" data-open-order>
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 6h12l1 11H3L4 6ZM7 7V5a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+        Order demo
       </a>
     </div>
   </body>

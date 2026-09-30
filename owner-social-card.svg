@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#15263b"/>
+  <rect width="16" height="630" fill="#c73b34"/>
+  <path d="M0 530h1200v100H0z" fill="#e9b84d"/>
+  <text x="70" y="85" fill="#e9b84d" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="3">HERO HOUSE · WOOSTER, OHIO</text>
+  <text x="65" y="215" fill="#fff8ec" font-family="Arial,sans-serif" font-size="80" font-weight="900" letter-spacing="-3">ORDER AHEAD.</text>
+  <text x="65" y="315" fill="#e9b84d" font-family="Arial,sans-serif" font-size="94" font-weight="900" letter-spacing="-3">ROLL UP.</text>
+  <text x="72" y="385" fill="#fff8ec" font-family="Arial,sans-serif" font-size="27">A shorter handoff at the window.</text>
+  <text x="72" y="452" fill="#c9d2d9" font-family="Arial,sans-serif" font-size="19">Explore the ordering demo and the business case.</text>
+  <g transform="translate(770 128)">
+    <rect x="86" width="255" height="342" fill="#f3e9d7"/>
+    <path d="M66 0h292l-23 49H89z" fill="#c73b34"/>
+    <text x="213" y="33" text-anchor="middle" fill="#fff8ec" font-family="Arial,sans-serif" font-weight="900" font-size="20">HERO HOUSE</text>
+    <rect x="118" y="84" width="159" height="172" fill="#fffdf8" stroke="#17283b" stroke-width="4"/>
+    <path d="M106 257h183" stroke="#17283b" stroke-width="9"/>
+    <path d="M161 180h74l8 71h-90z" fill="#e9b84d" stroke="#17283b" stroke-width="3"/>
+    <path d="M176 179v-14a22 22 0 0 1 44 0v14" fill="none" stroke="#17283b" stroke-width="3"/>
+    <text x="198" y="224" text-anchor="middle" fill="#17283b" font-family="Arial,sans-serif" font-size="26" font-weight="900">HH</text>
+    <g transform="translate(-104 227)">
+      <path d="m44 56 27-42h112l33 42 38 8v34H17V66z" fill="#e9b84d" stroke="#17283b" stroke-width="4"/>
+      <path d="m83 24-20 32h132l-22-32z" fill="#fffdf8" stroke="#17283b" stroke-width="3"/>
+      <path d="M124 24v32M15 99h240" stroke="#17283b" stroke-width="4"/>
+      <circle cx="65" cy="99" r="23" fill="#17283b"/><circle cx="65" cy="99" r="9" fill="#fffdf8"/>
+      <circle cx="209" cy="99" r="23" fill="#17283b"/><circle cx="209" cy="99" r="9" fill="#fffdf8"/>
+    </g>
+  </g>
+  <text x="72" y="582" fill="#15263b" font-family="Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="1.6">DRIVE-THROUGH PICKUP · ORDERING DEMO · OWNER BUSINESS CASE</text>
+</svg>
