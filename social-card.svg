@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <pattern id="check" width="70" height="70" patternUnits="userSpaceOnUse">
+      <rect width="70" height="70" fill="#fff8ec"/>
+      <path d="M0 0h35v35H0zM35 35h35v35H35z" fill="#c73b34" opacity=".88"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#15263b"/>
+  <circle cx="1016" cy="105" r="310" stroke="#fff8ec" stroke-opacity=".1" stroke-width="2"/>
+  <circle cx="1016" cy="105" r="265" stroke="#fff8ec" stroke-opacity=".08" stroke-width="2"/>
+  <path d="M0 530h1200v100H0z" fill="#e9b84d"/>
+  <path d="M0 0h16v630H0z" fill="#c73b34"/>
+  <text x="82" y="108" fill="#e9b84d" font-family="Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="5">WOOSTER, OHIO · SINCE 1975</text>
+  <text x="75" y="286" fill="#fff8ec" font-family="Arial Narrow, Impact, sans-serif" font-size="144" font-weight="900" letter-spacing="-5">A WHOLE LOT</text>
+  <text x="75" y="424" fill="#e9b84d" font-family="Arial Narrow, Impact, sans-serif" font-size="152" font-style="italic" font-weight="900" letter-spacing="-6">OF HERO.</text>
+  <text x="84" y="582" fill="#15263b" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">CHEESESTEAKS · HOUSE-MADE MEATBALLS · A WOOSTER ORIGINAL</text>
+  <g transform="translate(808 208) rotate(5)">
+    <rect width="308" height="236" fill="#fff8ec" stroke="#e8d9bc" stroke-width="5"/>
+    <rect x="16" y="16" width="276" height="204" fill="url(#check)"/>
+    <path d="M44 134c51-33 154-33 222 0l-13 39c-57 24-142 23-197 0z" fill="#d99d47" stroke="#9c5e2e" stroke-width="5"/>
+    <path d="M52 128c34-28 57-14 83-12 26 2 43-24 69-14 25 10 43 22 67 13l12 20c-35 19-62 25-95 21-38-4-56 9-96 7-23-1-42-8-59-18z" fill="#6e3e2f" stroke="#482b28" stroke-width="4"/>
+    <path d="M52 122c36-30 79-48 133-44 52 4 83 23 98 47" stroke="#f4cd45" stroke-width="20" stroke-linecap="round"/>
+    <path d="M52 108c32-21 61-29 92-25 28 4 48-10 69-12 27-2 50 8 67 22l-8 28c-32-5-56-8-81-4-28 4-40 15-73 14-25-1-47-9-66-8z" fill="#d79b46" stroke="#9c5e2e" stroke-width="5"/>
+    <path d="m54 81 8 13m47-31 6 11m50-19 4 12m53-5 3 12m34 8 9 12" stroke="#fff0c6" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>
